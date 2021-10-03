@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Countries</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h2>Where in the world?</h2>
+        <div class="theme">
+          <i></i>
+          <label for="theme">Dark Mode</label>
+        </div>
+      </header>
+      <section class="container">
+        <div class="search">
+          <label for="search"><i></i></label>
+          <input
+            class="input"
+            type="text"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <div class="region">
+          <label for="region">Filter by Region</label>
+          <select name="region" id="region"></select>
+        </div>
+      </section>
+      <article class="column container">
+        <div class="country-column">
+          <div class="img-box">
+            <img src="" alt="" height="150px" width="250px" />
+          </div>
+          <div class="country-details">
+            <h3>Nigeria</h3>
+            <div>
+              <label for="population">Population:</label> <span>200000000</span>
+            </div>
+            <div><label for="region">Region:</label> <span>Africa</span></div>
+            <label for="capital">Capital:</label>
+            <span>Abuja</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
