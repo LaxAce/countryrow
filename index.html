@@ -20,42 +20,102 @@
   <body>
     <div>
       <header>
-        <h2>Where in the world?</h2>
+        <h2 class="kkk qkq">Where in the world?</h2>
         <div class="theme">
           <i></i>
           <label for="theme">Dark Mode</label>
         </div>
       </header>
-      <section class="container">
-        <div class="search">
-          <label for="search"><i></i></label>
-          <input
-            class="input"
-            type="text"
-            placeholder="Search for a country..."
-          />
-        </div>
-        <div class="region">
-          <label for="region">Filter by Region</label>
-          <select name="region" id="region"></select>
-        </div>
-      </section>
-      <article class="column container">
-        <div class="country-column">
-          <div class="img-box">
-            <img src="" alt="" height="150px" width="250px" />
+      <div class="first-page">
+        <section class="container">
+          <div class="search">
+            <label for="search"><i></i></label>
+            <input
+              class="input"
+              type="search"
+              placeholder="Search for a country..."
+            />
           </div>
-          <div class="country-details">
-            <h3>Nigeria</h3>
-            <div>
-              <label for="population">Population:</label> <span>200000000</span>
+          <div class="region">
+            <label for="region">Filter by Region</label>
+            <select name="region" id="region"></select>
+          </div>
+        </section>
+        <article class="column container">
+          <div class="country-column">
+            <div class="img-box">
+              <img src="" alt="" height="150px" width="250px" />
             </div>
-            <div><label for="region">Region:</label> <span>Africa</span></div>
-            <label for="capital">Capital:</label>
-            <span>Abuja</span>
+            <div class="country-details">
+              <h3>Nigeria</h3>
+              <div>
+                <label for="population">Population:</label>
+                <span>200000000</span>
+              </div>
+              <div><label for="region">Region:</label> <span>Africa</span></div>
+              <label for="capital">Capital:</label>
+              <span>Abuja</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="second-page container hidden">
+        <div class="arrow-back"><i></i> Back</div>
+        <div class="full-details">
+          <div class="big-flag"><img src="" alt="big flag" /></div>
+          <div class="more-info">
+            <h1>Belgium</h1>
+            <div class="flex-details">
+              <div class="first-coln">
+                <div>
+                  <label for="nativ-name">Native Name:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Population:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Region:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Sub Region:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Capital:</label>
+                  <span>Bedge</span>
+                </div>
+              </div>
+              <div class="second-coln">
+                <div>
+                  <label for="nativ-name">Top Level Domain:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Currencies:</label>
+                  <span>Bedge</span>
+                </div>
+                <div>
+                  <label for="nativ-name">Languages:</label>
+                  <span> Bedge</span><span> Bedge</span><span> Bedge</span
+                  ><span> Bedge</span><span> Bedge</span><span> Bedge</span>
+                  <span> Bedge</span>
+                  <span> Bedge</span>
+                  <span> Bedge</span>
+                </div>
+              </div>
+            </div>
+            <div class="border-countries">
+              <label for="border-count">Border Countries:</label>
+              <div class="border">France</div>
+              <div class="border">France</div>
+              <div class="border">France</div>
+            </div>
           </div>
         </div>
-      </article>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

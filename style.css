@@ -19,6 +19,8 @@ h3 {
   font-weight: 800;
 }
 
+/*====================== First Page ========== */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -51,7 +53,6 @@ input {
   font-size: 12px;
 }
 
-/* Articles */
 .column {
   display: grid;
   grid-template-columns: repeat(4, 200px);
@@ -68,6 +69,7 @@ input {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   /* border: 2px solid #000; */
+  cursor: pointer;
 }
 
 .img-box {
@@ -103,6 +105,97 @@ h3 {
   margin-bottom: 24px;
 }
 
+.hidden {
+  display: none;
+}
+
+/*=================== Second Page ========== */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.arrow-back {
+  margin: 44px 0px;
+  background-color: hsl(209, 23%, 22%);
+  display: inline-block;
+  padding: 4px 32px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.full-details {
+  display: flex;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.big-flag {
+  width: 450px;
+  height: 300px;
+  /* border: 1px solid #000; */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.433);
+}
+
+.more-info {
+  padding: 20px 0;
+  padding-top: 30px;
+  /* border: 1px solid #000; */
+}
+
+.flex-details {
+  display: flex;
+}
+
+.first-coln {
+  width: 300px;
+  /* border: 1px solid #000; */
+}
+.second-coln {
+  width: 340px;
+  /* border: 1px solid #000; */
+}
+
+.first-coln div,
+.second-coln div {
+  margin-bottom: 8px;
+}
+
+.border-countries {
+  display: flex;
+  margin-top: 32px;
+  /* max-width: 200px; */
+}
+
+.border-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4px;
+  row-gap: 8px;
+}
+
+label,
+span {
+  font-size: 13px;
+}
+
+.border-countries label {
+  margin-right: 12px;
+  /* align-self: center; */
+}
+
+.border {
+  font-size: 12px;
+  margin: 0 4px;
+  background-color: hsl(209, 23%, 22%);
+  padding: 4px 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.118);
+  border-radius: 2px;
+  text-align: center;
+}
+
+/* ================= Mediaqueries============ */
 @media only screen and (max-width: 630px) {
   .column {
     display: grid;
