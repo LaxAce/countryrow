@@ -68,16 +68,12 @@ input {
 
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  /* border: 2px solid #000; */
   cursor: pointer;
 }
 
 .img-box {
   width: 170px;
   height: 100px;
-  /* border: 2px solid #000; */
-  /* display: flex;
-  justify-content: flex-start; */
 }
 
 .country-details {
@@ -134,7 +130,6 @@ h1 {
 .big-flag {
   width: 450px;
   height: 300px;
-  /* border: 1px solid #000; */
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.433);
 }
 
